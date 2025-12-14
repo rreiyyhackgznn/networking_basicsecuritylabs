@@ -1,26 +1,42 @@
-## Project Overview
+# Network Security Practice Projects
 
-This repository contains multiple hands-on networking and security lab projects 
-designed to practice enterprise network concepts using Cisco Packet Tracer.
+This repository contains my hands-on network configuration and lab files, developed using Packet Tracer during my network studies.
 
-The labs focus on the following areas:
+These files include exercises and simulations covering key network concepts such as VLAN, routing protocols, access control lists, and more.
 
-### 🔹 Network Segmentation & VLAN Design
-- VLAN-based network separation (Personnel, Management, Guest, Servers)
-- Access & Trunk port configuration
-- Inter-VLAN routing (Router-on-a-Stick, Multilayer Switch)
+Tools Used
+- Cisco Packet Tracer (network simulation environment)
 
-### 🔹 Routing & IP Services
-- Static routing and default gateways
-- DHCP server and DHCP relay (ip helper-address)
-- Subnet planning and IP addressing
+Topics Covered
+Each Packet Tracer file focuses on a specific networking topic:
 
-### 🔹 Wireless Network Architecture
-- Wireless LAN Controller (WLC) & Lightweight Access Points (LAP)
-- SSID to VLAN mapping
-- Secure management VLAN design
+VLAN & Inter-VLAN Routing
+- Basic VLAN setup
+- Inter-VLAN routing configuration
 
-### 🔹 Security & Management Concepts
-- Port security configurations
-- Management VLAN isolation
-- Centralized services (DNS, DHCP, Syslog, AAA)
+Routing Protocols
+- OSPF sample configuration
+
+ Network Services
+- DHCP configuration practice
+
+Spanning Tree
+- STP concept and switch redundancy
+
+Wireless & Security
+- Wireless network setup
+- ACL and port security basics
+
+📁 Repository Structure
+Each `.pkt` file corresponds to a lab exercise file.  
+Additional `.txt` files contain command reference examples used in the labs.
+
+ How to Use
+1. Open the `.pkt` file in Cisco Packet Tracer.  
+2. Observe device topologies and configurations.   
+3. Run simulations to verify connectivity and behavior.
+
+ Next Steps
+- Add Wireshark packet captures for selected labs
+- Include Python/Scapy analyzers for network output
+- Expand with basic firewall or monitoring examples
