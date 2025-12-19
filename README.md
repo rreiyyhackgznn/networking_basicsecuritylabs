@@ -1,4 +1,4 @@
-# Network and Basic Security Practice Projects
+# Networking and Security Practice Projects
 
 This repository contains my hands-on network configuration and lab files, developed using Packet Tracer during my network studies.
 
